@@ -12,6 +12,7 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50% , -50%) ;
+    padding: 20px;
 }
 .input{
     display: flex;
@@ -23,12 +24,18 @@ body{
     font: normal normal 500 18px/42px Ubuntu;
     color: #414040;
 }
-.text_input1{
+.text_button{
     font: normal normal 500 20px/42px Ubuntu;
     color: #ffffff;
     background-color: #414040;
-    position: relative;
-    left: 10px;
-    top: 10px;
+    align-items: center;
+    margin: 29px 106px;
 }
+.text_button:hover{
+    background-color: rgb(109, 121, 102);
+}
+.text_button:active{
+    background-color: rgb(96, 231, 0);
+}
+
 
